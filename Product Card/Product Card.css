@@ -1,0 +1,111 @@
+body
+        {
+            /* padding: 20px; */
+            margin: 0px;
+            font-family: arial;
+        }
+        
+        .product-card
+        {
+            position: relative;
+            width: 400px;
+            height: 600px;
+            padding: 40px;
+            margin: 60px auto;
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.1);
+        }
+        .discount-badge
+        {
+            position: absolute;
+            top: -7px;
+            left: 450px;
+            background-color: red;
+            color: aliceblue;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .sticky-nav
+        {
+            color: aliceblue;
+            position: sticky;
+            top: 0;
+            background-color: rgb(25, 25, 30);
+            padding: 10px;
+            /* text-align: center; */
+            z-index: 1000;
+            font-family: arial;
+            font-weight:bold;
+        }
+        .nav-list{
+            list-style: none;
+            display: flex; 
+
+        }
+        li{
+            margin-right: 20px;
+            font-size: 20px;
+        }
+        
+        
+
+
+        .image
+        {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            opacity: 0;
+            
+        }
+        .image:hover{
+            opacity: 1;
+            
+        }
+        .old-price
+        {
+            text-decoration: line-through;
+            color: gray;
+            margin-left: 10px;
+        }
+
+        .buttons{
+            height: 35px;
+            width: 300px;
+            display: flex;
+            margin: 23px;
+            padding: 5px;
+            justify-content: center;
+
+        }
+        .add{
+            margin-left: 30px;
+            margin-right: 20px;
+            background-color: rgb(41, 175, 41);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .addw{
+            background-color: gray;
+            color: white;
+            border: none;
+            border-radius: 10px;   
+            width: 200px;
+        }
+        .warrning{
+             position: relative;
+             width: 150px;
+             height:40px;
+             background-color: black;
+             color: white;
+             border:0px;
+             border-radius: 10px;
+             
+
+
+        }
